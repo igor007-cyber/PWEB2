@@ -4,4 +4,4 @@ let z = parseFloat(prompt('Digite outro numero: '))
 
 let a = [x,y,z]
 
-alert(a.sort())
+alert(Math.max(...a))
