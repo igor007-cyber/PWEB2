@@ -13,7 +13,7 @@ class Biblioteca{
         return this._material
     }
 
-    set AddMaterial(materiais){
+    set Material(materiais){
         this.materiais.push(materiais);
     }
 
@@ -22,7 +22,7 @@ class Biblioteca{
     }
 
     ExcluirMaterial(){
-        
+     
     }
 
 

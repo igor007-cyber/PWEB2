@@ -21,15 +21,15 @@ export class Material {
         return this._categoria;
     }
 
-    set setAutor(autor) {
+     setAutor(autor) {
         this._autor = autor;
     }
 
-    set setDataPublicacao(data_publicacao) {
+     setDataPublicacao(data_publicacao) {
         this._data_pulicacao = data_publicacao;
     }
 
-    set setCategoria(categoria) {
+     setCategoria(categoria) {
         this._categoria = categoria;
     }
 }
